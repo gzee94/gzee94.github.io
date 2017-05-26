@@ -60,7 +60,7 @@
 
 }
 #headerpic{
-	background-image: url("geraldleepage2.png");
+	background-image: url("https://gzee94.github.io/geraldleepage2.png");
 	background-position: center center;
 	background-size: auto auto;
 	height: 800px;
@@ -103,7 +103,7 @@
 	}
 	#parallax1 { 
 		/* The image used */
-		background-image: url("DSC_0281.jpg");
+		background-image: url("https://gzee94.github.io/DSC_0281.jpg");
 
 		/* Set a specific height */
 		
@@ -118,7 +118,7 @@
 
 	}
 	#parallax2{
-		background-image: url("SAM_1707.jpg");
+		background-image: url("https://gzee94.github.io/SAM_1707.jpg");
 
 		/* Set a specific height */
 		height: 850px; 
