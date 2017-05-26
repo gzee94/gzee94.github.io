@@ -1,5 +1,5 @@
 #toppage{
-	background-image: url("file:///Users/geraldlee/Desktop/MyWeb/Black.jpg");
+	background-image: url("/Black.jpg");
 
 	height: 850px;
 	width: 100%;
@@ -60,7 +60,7 @@
 
 }
 #headerpic{
-	background-image: url("file:///Users/geraldlee/Desktop/MyWeb/geraldleepage2.png");
+	background-image: url("/geraldleepage2.png");
 	background-position: center center;
 	background-size: auto auto;
 	height: 800px;
