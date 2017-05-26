@@ -37,11 +37,11 @@
 	<div class="container-fluid" id="Home"><div class="row">
 		<div id="toppage" class="clickhere col-lg-12 ">
 			<div class="topclick" id="top_click">
-				<a href="#About" color="white">"Hello" </a></div> 
+				<a href="#First" color="white">"Hello" </a></div> 
 			</div></div></div>
 
 
-			<div class="container-fluid"><div class="row">
+			<div class="container-fluid" id="First"><div class="row">
 				<div  class="col-lg-12 col-md-4" id="headerpic"></div></div></div>
 	<!--<img src="file:///Users/geraldlee/Desktop/MyWeb/geraldleepage1.png"></div></div></div>
 
@@ -60,7 +60,7 @@
 
 		<div class="container about_c background_white about" id="About"><div class="row">
 			<div class="col-lg-12  col-xs-12 squeeze">
-				<h1 class="largerfont" id="about" >About Me</h1>
+				<h1 class="largerfont"  >About Me</h1>
 				
 				<h4 id="about_caption" class="fadedfont" >I am an easy-going, driven person with a curious mind wishing to learn at any opportunity possible</h4>
 				<hr size="10">
@@ -93,12 +93,12 @@
 
 						<!--the start of experience is here-->
 						<div class="container-fluid about_c experiencecontainer" id="parallax1">
-							<div class="row">
+							<div class="row" id="Experiences">
 								<div class="flex  col-xs-12 about_c ">
 									<div class="col-md-12  col-xs-12 squeeze experiencecontainer">
-										<h1 class="largerfont" id="about" >Experiences</h1>
-										<hr>
-										<h4 class="midfont">Education</h4>
+										<h1 class="largerfont" id="Education" >Experiences</h1>
+										<hr >
+										<h4  class="midfont">Education</h4>
 
 										
 
@@ -170,7 +170,7 @@
 										</div>
 									</div>	-->
 
-									<div class="col-md-12  col-xs-12 squeeze experiencecontainer">
+									<div id="Career" class="col-md-12  col-xs-12 squeeze experiencecontainer">
 
 										<hr>
 										<h4 class="midfont">Career</h4>
@@ -211,10 +211,10 @@
 
 
 						<div class="container-fluid about_c experiencecontainer" id="parallax2">
-							<div class="row">
+							<div class="row" id="Skills">
 								<div class="flex  squeeze col-xs-12 about_c ">
 									
-									<h1 class="largerfont bg-inverse" id="about" >Skills</h1>
+									<h1 class="largerfont bg-inverse"  >Skills</h1>
 									<hr>
 									<h4 class="midfont">A brief run down of skills</h4>
 
@@ -255,12 +255,12 @@
 									</div>
 
 									<div class="col-md-12 col-xs-12 ">
-									<hr class="blackheader">
+										<hr class="blackheader">
 
 
-									<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text1">Click to be inspired</button><br/>
-									<div id="text1" class="collapse"><blockquote class="not_opaque">Modern technology has become a total phenomenon for civilization, the defining force of a new social order in which efficiency is no longer an option but a necessity imposed on all human activity.<footer>Jacques Ellul</footer></blockquote>
-									</div>
+										<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text1">Click to be inspired</button><br/>
+										<div id="text1" class="collapse"><blockquote class="not_opaque">Modern technology has become a total phenomenon for civilization, the defining force of a new social order in which efficiency is no longer an option but a necessity imposed on all human activity.<footer>Jacques Ellul</footer></blockquote>
+										</div>
 									</div>
 
 
@@ -273,7 +273,7 @@
 
 
 
-						<div class="container about_c ">
+						<div class="container about_c " id="Contact">
 							<div class="row">
 								<div class="col-lg-push-8">
 												<!--<h2>Contact me via:</h2>
@@ -302,46 +302,72 @@
 												<p> <i>I would like to thank all the family and friends who has encouraged me to keep on progressing through this website project. I could not have done it without them.</i></p>
 											</div>
 										</div>
-										<div class="topnav " id="myTopnav">
+										<!--<div class="topnav " id="myTopnav">
 											<a  href="#About" About> <img src="1.png" height="90" width="90" border="0"/></a>
 											<a href="#Work" work><img src="2.png" height="90" width="90" border="0"/> </a>
 											<a href="#Contact" Contact> <img src="3.png" height="90" width="90" border="0"/></a>
 
-										</div>
+										</div>-->
 
 										<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid ">
-    <div class="navbar-header ">
-      <a class="navbar-brand "" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav topnav">
-      <li class="active"><a href="#Home">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
+											<div class="container-fluid ">
+												<div class="navbar-header ">
+													<a class="navbar-brand "" href="#">GeraldLee</a>
+												</div>
+
+												<ul class="nav navbar-nav  ">
+											
 
 
 
-										<!--JQuery file from google-->
-										<script src="js/jquery.min.js"></script>
-
-										<!-- Latest compiled and minified JavaScript -->
-										<script src="js/bootstrap.min.js" ></script>
 
 
-										<!--linkedinscript-->
-										<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+													<li class="active"><a href="#Home">Home</a></li>
+													<li><a href="#About">About</a></li>
+													<li class="dropdown">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experiences <span class="caret"></span></a>
+														<ul class="dropdown-menu">
+															<li><a href="#Education">Education</a></li>
+															<li><a href="#Career">Career</a></li>
+
+														</ul>
+													</li>
 
 
-										<!-- jQuery library -->
-										<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+															
+															<li><a href="#Skills">Skills</a></li>
+															<li><a href="#Contact">Contact Me</a></li>
+														</ul>
+													</div>
+												</nav>
 
-										<!-- Latest compiled JavaScript -->
-										<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-									</body>
-									</html>
+
+
+												<!--JQuery file from google-->
+												<script src="js/jquery.min.js"></script>
+
+												<!-- Latest compiled and minified JavaScript -->
+												<script src="js/bootstrap.min.js" ></script>
+
+
+												<script>
+													$(document).ready(function () {
+														$('.dropdown-toggle').dropdown();
+													});
+												</script>
+
+												<!--linkedinscript-->
+												<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+
+												<!-- jQuery library -->
+												<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+												<!-- Latest compiled JavaScript -->
+												<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+											</body>
+											</html>
 
 
 									<!--
