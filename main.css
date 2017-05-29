@@ -1,5 +1,5 @@
 #toppage{
-	background-image: url("Black.jpg");
+	background-color:black;
 
 	height: 850px;
 	width: 100%;
@@ -9,6 +9,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 
 }
 
@@ -60,7 +61,7 @@
 
 }
 #headerpic{
-	background-image: url("https://gzee94.github.io/geraldleepage2.png");
+	background-image: url("https://gzee94.github.io/geraldleepage.JPG");
 	background-position: center center;
 	background-size: auto auto;
 	height: 800px;
@@ -70,6 +71,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 
 }
 .header img{
@@ -248,14 +250,15 @@
 		padding-right: 10%;
 		padding-left: 10%;
 
-		margin:5px;
 		visibility: hidden;
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: white;
+		background: rgba(20,40,100,0.9);
+		color:white;
+		font:Lucida ;
 
 		box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 		border-radius: 12px;
@@ -270,6 +273,8 @@
 		padding-bottom: 5px;
 		margin:5px;
 		max-width:95px;
+
+
 
 
 
@@ -426,6 +431,12 @@
 		color:rgb(50,50,250);
 		font-family: Open Sans, sans-serif;
 		font-size:54px;
+		font-weight: 300;
+	}
+	.firstfont{
+		color:black;
+		font-family:Lucida
+		font-size:74px;
 		font-weight: 300;
 	}
 
